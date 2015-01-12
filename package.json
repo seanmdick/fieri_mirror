@@ -1,0 +1,16 @@
+{
+  "name": "fieri_mirror",
+  "version": "6.6.6",
+  "description": "a recreation of the woefully broken flavortown dish generator script from http://www.eater.com/2014/7/17/6185275/harness-the-power-of-guy-fieri-with-the-flavortown-dish-generator",
+  "main": "app.js",
+  "dependencies": {
+    "handlebars": "^2.0.0",
+    "underscore": "^1.7.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "hahahahahahahaha ... AAAAAAahahhahHAHAHAHAHAHAHA"
+  },
+  "author": "Dean Sick",
+  "license": "ISC"
+}

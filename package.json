@@ -4,7 +4,9 @@
   "description": "a recreation of the woefully broken flavortown dish generator script from http://www.eater.com/2014/7/17/6185275/harness-the-power-of-guy-fieri-with-the-flavortown-dish-generator",
   "main": "app.js",
   "dependencies": {
+    "express": "^4.10.7",
     "handlebars": "^2.0.0",
+    "jade": "^1.9.0",
     "underscore": "^1.7.0"
   },
   "devDependencies": {},

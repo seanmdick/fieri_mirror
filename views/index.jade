@@ -1,0 +1,23 @@
+doctype html
+head
+  title Flavortown Dish Generator
+  link(rel='stylesheet' href='/style/app.css')
+  link(href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css')
+  style
+    :css
+      b {
+        color: #{textColor}
+      }
+
+      body {
+        background: #{bgColor}
+      }
+
+body
+  #container
+    b=dishName
+    br
+    br
+    small
+      span Recreated from 
+      a(href='http://www.eater.com/2014/7/17/6185275/harness-the-power-of-guy-fieri-with-the-flavortown-dish-generator') eater.com's Flavortown Dish Generator

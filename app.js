@@ -34,10 +34,10 @@ var express = require('express'),
 	};
 
 app.set('views', __dirname + '/views')
-app.set('public', __dirname + '/views')
 app.set('view engine', 'jade')
 router.use(express.static(__dirname + '/public'));
 app.use('/style', router);
+app.use('/images', router);
 app.get('/', function(req,res) {
 	var dishName = handlebars.compile(output)(selected_strings());
 
